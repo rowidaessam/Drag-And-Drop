@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    border: 4px solid rgb(99, 99, 144);
+    box-shadow: rgb(131, 110, 189) -5px -5px 10px, rgb(131, 110, 189) 5px 5px 10px, rgb(234, 206, 250) 10px 10px 100px inset;
+    border-radius: 8%;
+    height: 90%;
+    transition: all 2s ease-in-out;
+    
+
+}
+
+#internal {
+    
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 8%;
+    height: 90%;
+    transition: all 2s ease-in-out;
+
+
+
+}
+
+#section {
+    width: 90%;
+    border: 2px solid black;
+    margin: 25px;
+    padding: 5px;
+    box-shadow: rgb(131, 110, 189) -5px -5px 10px, rgb(131, 110, 189) 5px 5px 10px, rgb(212, 207, 249) 10px 10px 100px inset;
+    height: 35%;
+    border-radius: 2%;
+    display: block;
+    margin-left: 4%;
+
+
+
+}
+
+#side {
+    width: 90%;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 25px;
+    height: 35%;
+    border-radius: 2%;
+    box-shadow: rgb(131, 110, 189) -5px -5px 10px, rgb(131, 110, 189) 5px 5px 10px, rgb(213, 190, 247) 10px 10px 100px inset;
+    display: block;
+    margin-top: 5%;
+    margin-left: 4%;
+    
+}
+.dr{
+    width: 11%;
+    border: 3px solid black;
+    height: 90%;
+    display: inline-block;
+    margin-left: .5%;
+    transition: all 1s ease-in-out;
+
+
+}
+.dr>img{
+    width: 100%;
+    height: 100%;
+}
+.dr>img:hover{
+    transform:scale(1.5);
+}
+.dr:hover{
+    transform: rotate(360deg);
+}
+.dr:active{
+    transform: rotate(360deg);
+    transform-origin: 50% 90%;
+}
